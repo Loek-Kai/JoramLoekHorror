@@ -60,12 +60,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        MyInput();
         Movement();
     }
 
     private void Update()
     {
-        MyInput();
         Look();
     }
 
